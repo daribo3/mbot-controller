@@ -5,6 +5,7 @@ on:
     branches:
       - dev
       - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -36,4 +37,4 @@ jobs:
       
       - name: Run pytest
         run: |
-          python -m pytest
+          pytest
