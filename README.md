@@ -2,4 +2,4 @@
 
 - Create and source a virtualenv
 
-- Install with `pip install .`
+- To develop, install with `pip install -e .[dev]`
